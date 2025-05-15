@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="app">
       <h1>Ferry Info</h1>
-        <button onClick={fetchFerryData} style={{ marginBottom: "30px" }}>Get Info</button>
+        <button onClick={fetchFerryData} style={{ marginBottom: "30px" }}>Get Ferry Info</button>
         <ul>
           {ferryAttributes.response && ferryAttributes.response.map((details, index) => (
             <li key={index}
